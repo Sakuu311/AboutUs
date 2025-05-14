@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    color:black;
+    background: white;
+}
+.logo{
+    background: white;
+    border-bottom: solid 1px #eee;
+    padding:20px 0;
+    color: black;
+    font-size: 25px;
+
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links ul{
+    display: flex;
+    list-style:none;
+    gap:25px;
+}
+.loginbutton{
+    padding: 10px 10px;
+    background-color: white;
+    color: black;
+}
+.signupbutton{
+    padding:10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 6px;
+}
+.about{
+    text-align:center
+}
+.aboutus{
+    color:blueviolet
+}
+.main{
+    font-weight: 600px;
+}
+.main-center{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+.datas{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    align-items: center;
+}
+.image{
+    max-width:100%;
+    border-radius: 9px;
+}
+.data1{
+    gap:10px;
+    display:flex
+    direction:column;
+    justify-content:center;
+}
